@@ -1,0 +1,151 @@
+  119  git clone https://github.com/thatrealtyguy/CS260.git
+  120  git clone https://github.com/thatrealtyguy/CS260.git
+  138  git add index.html
+  140  git commit -m "Initial portfolio page"
+  141  git config --global user.email "thatrealtyguy@gmail.com"
+  142  git commit -m "Initial portfolio page"
+  143  git push
+  144  git pull
+  145  git push
+  146  git fetch origin
+  147  git log origin/master
+  148  git pul
+  149  git pull
+  150  git merge
+  151  git pull origin master --allow-unrelated-histories
+  152  git pull
+  164  git clone https://github.com/thatrealtyguy/CS260Source.git
+  169  git add index.html
+  170  git commit -m "Initial commit to launch connection"
+  171  git push
+  184  git config --global user.name "Tyler Savage"
+  185  git config --list
+  186  git config --global core.editor "code --wait"
+  187  git config --list
+  188  git config --global init.defaultBranch main
+  189  git config --list
+  196  mkdir git-practice
+  197  cd git-practice
+  199  git init
+  202  git status
+  203  git add file1.txt
+  204  git status
+  205  git commit -m "Creating File, first commit"
+  206  git status
+  207  git log
+  214  cd git-practice
+  217  code .gitignore
+  218  git status
+  220  git status
+  221  git add .gitignore
+  222  git commit -m "Create gitignore"
+  223  git status
+  225  git branch
+  226  git branch new-feature
+  227  git branch
+  228  git switch new-feature
+  229  git branch
+  231  git staturs
+  232  git status
+  233  git add branch_file.txt
+  234  git commit
+  235  git status
+  236  git log --oneline
+  237  git switch main
+  238  git log --oneline
+  239  git branch
+  240  git merge new-feature
+  241  git log
+  242  git log --oneline
+  243  git branch -d new-feature
+  244  git log --oneline
+  245  git status
+  256  cd git-practice
+  258  git mv git-practice Main
+  264  cd git-practice
+  265  git remote -v
+  266  git remote add origin git@github.com:thatrealtyguy/my-random-repository.git
+  267  git remote -v
+  269  git push -u origin main
+  270  git status
+  271  git pull
+  272  git status
+  274  git pull
+  280  cd git-practice-thatrealtyguy
+  281  git init
+  283  git status
+  287  git status
+  288  git add file_1.txt
+  289  git add file_2.txt
+  290  git status
+  291  git commit -m "create new files"
+  292  git status
+  293  git log
+  294  git status
+  295  git log
+  296  git add Readme.md
+  298  touch .gitignore
+  301  cd git-practice-thatrealtyguy
+  304  git status
+  305  git branch
+  306  git branch [features]
+  307  git branch features
+  308  git switch features
+  310  git add new_features.txt
+  311  git commit -m "add empty file"
+  312  git status
+  313  git status
+  314  git commit "Updated features file"
+  315  git commit -m "Updated features file"
+  316  git add new_features.txt
+  317  git commit -m "Updated features file"
+  318  git status
+  319  git switch main
+  320  git add file_1.txt
+  321  git commit -m "Updated file-1.txt with flavor text"
+  322  git status
+  323  git merge features
+  324  git status
+  325  git log
+  326  cd Documents/'Stat 386'/'Lab1 Git And Github'/git-practice-thatrealtyguy
+  327  git status
+  328  git add new_features.txt
+  329  git commit -m "Updated new_features.txt"
+  330  git status
+  331  git branch
+  332  git switch features
+  333  git status
+  334  git add new_features.txt
+  335  git commit -m "Updated new_features.txt with a different update"
+  336  git switch main
+  337  git merge features
+  338  git branch --delete features
+  339  git branch
+  340  git remote add origin git@github.com:thatrealtyguy/git-practice-thatrealtyguy.git
+  341  git push -u origin main
+  343  cd git-practice-mtg
+  344  git remote add origin git@github.com:thatrealtyguy/git-practice-mtg.git
+  345  git clone git@github.com:thatrealtyguy/git-practice-mtg.git
+  348  git clone git@github.com:thatrealtyguy/git-practice-mtg.git
+  349  cd git-practice-mtg
+  350  git branch
+  351  git branch feature-thatrealtyguy
+  352  git switch feature-thatrealtyguy
+  355  cd Documents/'Stat 386'/'Lab1 Git And Github'/git-practice-mtg
+  358  git status
+  359  git add Han_Solos_Diary.txt
+  360  git status
+  362  git push origin feature-thatrealtyguy
+  363  git git switch main
+  364  git switch main
+  366  git switch feature-thatrealtyguy
+  367  git switch main
+  368  git merge feature-thatrealtyguy
+  369  git branch
+  370  git merge feature-thatrealtyguy
+  372  cd git-practice-thatrealtyguy
+  373  cd Documents/'Stat 386'/'Lab1 Git And Github'/git-practice-thatrealtyguy
+  374  git status
+  375  git branch
+  376  git log --oneline > gitlog.txt
+  377  history | grep git > history.txt

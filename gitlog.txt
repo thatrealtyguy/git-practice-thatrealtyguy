@@ -1,0 +1,14 @@
+8aa3bac Merge pull request #1 from madisongarccia/main
+239ee98 created my own file
+d2d7526 Merge branch 'features'
+5da2192 Updated new_features.txt with a different update
+0544370 Updated new_features.txt
+8e46199 Merge branch 'features'
+9d9c489 Updated file-1.txt with flavor text
+47a76d6 Updated features file
+9aa85e9 add empty file
+be3d446 Added .gitignore
+39b3d7a Added Readme
+788e312 Updated file_2.txt
+8a27ccd Updated file_1.txt
+c398dad create new files
